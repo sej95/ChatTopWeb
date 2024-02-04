@@ -14,20 +14,20 @@ One-Click to get well-designed cross-platform Gemini web UI.
 [![MacOS][MacOS-image]][download-url]
 [![Linux][Linux-image]][download-url]
 
-[Web App](https://gemini-chat.pro/) / [Desktop App](https://github.com/blacksev/Gemini-Next-Web/releases) / [Telegram](https://t.me/+EqnFU-q52_IxYjA1)
+[Web App](https://gemini-chat.pro/) / [Desktop App](https://github.com/sej95/ChatGemini/releases) / [Telegram](https://t.me/+EqnFU-q52_IxYjA1)
 
-[网页版](https://gemini-chat.pro/) / [客户端](https://github.com/blacksev/Gemini-Next-Web/releases) / [反馈](https://github.com/blacksev/Gemini-Next-Web/issues) / [电报](https://t.me/+EqnFU-q52_IxYjA1)
+[网页版](https://gemini-chat.pro/) / [客户端](https://github.com/sej95/ChatGemini/releases) / [反馈](https://github.com/sej95/ChatGemini/issues) / [电报](https://t.me/+EqnFU-q52_IxYjA1)
 
 [web-url]: https://gemini-chat.pro/
-[download-url]: https://github.com/blacksev/Gemini-Next-Web/releases
+[download-url]: https://github.com/sej95/ChatGemini/releases
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 [Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
 [Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fblacksev%2FGemini-Next-Web&env=CODE&project-name=gemini-next-web&repository-name=Gemini-Next-Web)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsej95%2FChatGemini&env=CODE&project-name=ChatGemini&repository-name=ChatGemini)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blacksev/Gemini-Next-Web)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sej95/ChatGemini)
 
 ![cover](./docs/images/cover.png)
 
@@ -36,7 +36,7 @@ One-Click to get well-designed cross-platform Gemini web UI.
 ## Features
 
 - **Deploy for free with one-click** on Vercel in under 1 minute
-- Compact client (~5MB) on Linux/Windows/MacOS, [download it now](https://github.com/blacksev/Gemini-Next-Web/releases)
+- Compact client (~5MB) on Linux/Windows/MacOS, [download it now](https://github.com/sej95/ChatGemini/releases)
 - Privacy first, all data is stored locally in the browser
 - Markdown support: LaTex, mermaid, code highlight, etc.
 - Responsive design, dark mode and PWA
@@ -48,13 +48,13 @@ One-Click to get well-designed cross-platform Gemini web UI.
 
 ## Roadmap
 
-- [x] System Prompt: pin a user defined prompt as system prompt [#138](https://github.com/blacksev/Gemini-Next-Web/issues/138)
+- [x] System Prompt: pin a user defined prompt as system prompt [#138](https://github.com/sej95/ChatGemini/issues/138)
 - [x] User Prompt: user can edit and save custom prompts to prompt list
-- [x] Prompt Template: create a new chat with pre-defined in-context prompts [#993](https://github.com/blacksev/Gemini-Next-Web/issues/993)
-- [x] Share as image, share to ShareGPT [#1741](https://github.com/blacksev/Gemini-Next-Web/pull/1741)
+- [x] Prompt Template: create a new chat with pre-defined in-context prompts [#993](https://github.com/sej95/ChatGemini/issues/993)
+- [x] Share as image, share to ShareGPT [#1741](https://github.com/sej95/ChatGemini/pull/1741)
 - [x] Desktop App with tauri
 - [x] Self-host Model: Fully compatible with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner), as well as server deployment of [LocalAI](https://github.com/go-skynet/LocalAI): llama/gpt4all/rwkv/vicuna/koala/gpt4all-j/cerebras/falcon/dolly etc.
-- [ ] Plugins: support network search, calculator, any other apis etc. [#165](https://github.com/blacksev/Gemini-Next-Web/issues/165)
+- [ ] Plugins: support network search, calculator, any other apis etc. [#165](https://github.com/sej95/ChatGemini/issues/165)
 
 ## What's New
 
@@ -66,7 +66,7 @@ One-Click to get well-designed cross-platform Gemini web UI.
 ## 主要功能
 
 - 在 1 分钟内使用 Vercel **免费一键部署**
-- 提供体积极小（~5MB）的跨平台客户端（Linux/Windows/MacOS）, [下载地址](https://github.com/blacksev/Gemini-Next-Web/releases)
+- 提供体积极小（~5MB）的跨平台客户端（Linux/Windows/MacOS）, [下载地址](https://github.com/sej95/ChatGemini/releases)
 - 完整的 Markdown 支持：LaTex 公式、Mermaid 流程图、代码高亮等等
 - 精心设计的 UI，响应式设计，支持深色模式，支持 PWA
 - 极快的首屏加载速度（~100kb），支持流式响应
@@ -79,13 +79,13 @@ One-Click to get well-designed cross-platform Gemini web UI.
 
 ## 开发计划
 
-- [x] 为每个对话设置系统 Prompt [#138](https://github.com/blacksev/Gemini-Next-Web/issues/138)
+- [x] 为每个对话设置系统 Prompt [#138](https://github.com/sej95/ChatGemini/issues/138)
 - [x] 允许用户自行编辑内置 Prompt 列表
-- [x] 预制角色：使用预制角色快速定制新对话 [#993](https://github.com/blacksev/Gemini-Next-Web/issues/993)
-- [x] 分享为图片，分享到 ShareGPT 链接 [#1741](https://github.com/blacksev/Gemini-Next-Web/pull/1741)
+- [x] 预制角色：使用预制角色快速定制新对话 [#993](https://github.com/sej95/ChatGemini/issues/993)
+- [x] 分享为图片，分享到 ShareGPT 链接 [#1741](https://github.com/sej95/ChatGemini/pull/1741)
 - [x] 使用 tauri 打包桌面应用
 - [x] 支持自部署的大语言模型：开箱即用 [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) ，服务端部署 [LocalAI 项目](https://github.com/go-skynet/LocalAI) llama / gpt4all / rwkv / vicuna / koala / gpt4all-j / cerebras / falcon / dolly 等等，或者使用 [api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm)
-- [ ] 插件机制，支持联网搜索、计算器、调用其他平台 api [#165](https://github.com/blacksev/Gemini-Next-Web/issues/165)
+- [ ] 插件机制，支持联网搜索、计算器、调用其他平台 api [#165](https://github.com/sej95/ChatGemini/issues/165)
 
 ## 最新动态
 
@@ -96,7 +96,7 @@ One-Click to get well-designed cross-platform Gemini web UI.
 > [简体中文 > 如何开始使用](./README_CN.md#开始使用)
 
 1. Click
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fblacksev%2FGemini-Next-Web&env=CODE&project-name=gemini-next-web&repository-name=Gemini-Next-Web), remember that `CODE` is your page password;
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsej95%2FChatGemini&env=CODE&project-name=ChatGemini&repository-name=ChatGemini), remember that `CODE` is your page password;
 2. Enjoy :)
 
 ## FAQ
@@ -224,7 +224,7 @@ NodeJS >= 18, Docker >= 20
 
 > [简体中文 > 如何进行二次开发](./README_CN.md#开发)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blacksev/Gemini-Next-Web)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sej95/ChatGemini)
 
 Before starting development, you must create a new `.env.local` file at project root, and place your api key into it:
 
@@ -246,12 +246,12 @@ yarn dev
 ### Docker (Recommended)
 
 ```shell
-docker pull blacksev/gemini-next-web
+docker pull sej95/ChatGemini
 
 docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY=sk-xxxx \
    -e CODE=your-password \
-   blacksev/gemini-next-web
+   sej95/ChatGemini
 ```
 
 You can start service behind a proxy:
@@ -260,7 +260,7 @@ You can start service behind a proxy:
 docker run -d -p 3000:3000 \
    -e CODE=your-password \
    -e PROXY_URL=http://localhost:7890 \
-   blacksev/gemini-next-web
+   sej95/ChatGemini
 ```
 
 If your proxy needs password, use:
@@ -272,7 +272,7 @@ If your proxy needs password, use:
 ### Shell
 
 ```shell
-bash <(curl -s https://raw.githubusercontent.com/blacksev/Gemini-Next-Web/main/scripts/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/sej95/ChatGemini/main/scripts/setup.sh)
 ```
 
 ## Synchronizing Chat Records (UpStash)
@@ -301,7 +301,7 @@ If you want to add a new translation, read this [document](./docs/translation.md
 
 ## Donation
 
-[Buy Me a Coffee](https://www.buymeacoffee.com/blacksev)
+[Buy Me a Coffee](https://www.buymeacoffee.com/sej95)
 
 ## Ads
 
@@ -309,7 +309,7 @@ If you want to add a new translation, read this [document](./docs/translation.md
 
 ### Contributor
 
-[Contributors](https://github.com/blacksev/Gemini-Next-Web/graphs/contributors)
+[Contributors](https://github.com/sej95/ChatGemini/graphs/contributors)
 
 ## LICENSE
 
