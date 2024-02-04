@@ -5,11 +5,11 @@
 
 一键免费部署你的私人 Gemini 网页应用。
 
-[演示 Demo](https://gemini-chat.pro/) / [反馈 Issues](https://github.com/blacksev/Gemini-Next-Web/issues) 
+[演示 Demo](https://gemini-chat.pro/) / [反馈 Issues](https://github.com/sej95/ChatGemini/issues) 
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fblacksev%2FGemini-Next-Web&env=CODE&project-name=gemini-next-web&repository-name=Gemini-Next-Web)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blacksev/Gemini-Next-Web)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sej95/ChatGemini)
 
 ![主界面](./docs/images/cover.png)
 
@@ -51,7 +51,7 @@
 
 > 配置密码后，用户需要在设置页手动填写访问码才可以正常聊天，否则会通过消息提示未授权状态。
 
-> **警告**：请务必将密码的位数设置得足够长，最好 7 位以上，否则[会被爆破](https://github.com/blacksev/Gemini-Next-Web/issues/518)。
+> **警告**：请务必将密码的位数设置得足够长，最好 7 位以上，否则[会被爆破](https://github.com/sej95/ChatGemini/issues/518)。
 
 本项目提供有限的权限控制功能，请在 Vercel 项目控制面板的环境变量页增加名为 `CODE` 的环境变量，值为用英文逗号分隔的自定义密码：
 
@@ -130,7 +130,7 @@ Azure Api 版本，你可以在这里找到：[Azure 文档](https://learn.micro
 
 点击下方按钮，开始二次开发：
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blacksev/Gemini-Next-Web)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sej95/ChatGemini)
 
 在开始写代码之前，需要在项目根目录新建一个 `.env.local` 文件，里面填入环境变量：
 
@@ -199,7 +199,7 @@ bash <(curl -s https://raw.githubusercontent.com/blacksev/Gemini-Next-Web/main/s
 
 ### 贡献者
 
-[见项目贡献者列表](https://github.com/blacksev/Gemini-Next-Web/graphs/contributors)
+[见项目贡献者列表](https://github.com/sej95/ChatGemini/graphs/contributors)
 
 ### 相关项目
 - [one-api](https://github.com/songquanpeng/one-api): 一站式大模型额度管理平台，支持市面上所有主流大语言模型

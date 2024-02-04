@@ -25,7 +25,7 @@ One-Click to get well-designed cross-platform Gemini web UI.
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
 [Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsej95%2FChatGemini&env=CODE&project-name=ChatGemini&repository-name=ChatGemini)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fblacksev%2FGemini-Next-Web&env=CODE&project-name=gemini-next-web&repository-name=Gemini-Next-Web)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sej95/ChatGemini)
 
@@ -96,7 +96,7 @@ One-Click to get well-designed cross-platform Gemini web UI.
 > [简体中文 > 如何开始使用](./README_CN.md#开始使用)
 
 1. Click
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsej95%2FChatGemini&env=CODE&project-name=ChatGemini&repository-name=ChatGemini), remember that `CODE` is your page password;
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fblacksev%2FGemini-Next-Web&env=CODE&project-name=gemini-next-web&repository-name=Gemini-Next-Web), remember that `CODE` is your page password;
 2. Enjoy :)
 
 ## FAQ
@@ -246,12 +246,12 @@ yarn dev
 ### Docker (Recommended)
 
 ```shell
-docker pull sej95/ChatGemini
+docker pull blacksev/gemini-next-web
 
 docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY=sk-xxxx \
    -e CODE=your-password \
-   sej95/ChatGemini
+   blacksev/gemini-next-web
 ```
 
 You can start service behind a proxy:
@@ -260,7 +260,7 @@ You can start service behind a proxy:
 docker run -d -p 3000:3000 \
    -e CODE=your-password \
    -e PROXY_URL=http://localhost:7890 \
-   sej95/ChatGemini
+   blacksev/gemini-next-web
 ```
 
 If your proxy needs password, use:
@@ -272,7 +272,7 @@ If your proxy needs password, use:
 ### Shell
 
 ```shell
-bash <(curl -s https://raw.githubusercontent.com/sej95/ChatGemini/main/scripts/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/blacksev/Gemini-Next-Web/main/scripts/setup.sh)
 ```
 
 ## Synchronizing Chat Records (UpStash)
@@ -301,7 +301,7 @@ If you want to add a new translation, read this [document](./docs/translation.md
 
 ## Donation
 
-[Buy Me a Coffee](https://www.buymeacoffee.com/sej95)
+[Buy Me a Coffee](https://www.buymeacoffee.com/blacksev)
 
 ## Ads
 
