@@ -3,7 +3,7 @@ services:
   chatgpt-next-web:
     profiles: ["no-proxy"]
     container_name: gemini-next-web
-    image: blacksev/gemini-next-web
+    image: sej95/ChatGemini
     ports:
       - 3000:3000
     environment:
@@ -19,7 +19,7 @@ services:
   chatgpt-next-web-proxy:
     profiles: ["proxy"]
     container_name: gemini-next-web-proxy
-    image: blacksev/gemini-next-web
+    image: sej95/ChatGemini
     ports:
       - 3000:3000
     environment:
