@@ -91,7 +91,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://github.com/blacksev/Gemini-Next-Web/releases/latest/download/latest.json"
+        "https://github.com/sej95/ChatGemini/releases/latest/download/latest.json"
       ],
       "dialog": false,
       "windows": {
