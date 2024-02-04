@@ -532,7 +532,7 @@ export function ImagePreviewer(props: {
           <div>
             <div className={styles["main-title"]}>Gemini Chat Pro</div>
             <div className={styles["sub-title"]}>
-              github.com/blacksev/Gemini-Next-Web
+              github.com/sej95/ChatGemini
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />
