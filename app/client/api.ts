@@ -102,7 +102,7 @@ export class ClientApi {
         {
           from: "human",
           value:
-            "Share from [Gemini Next Web]: https://github.com/blacksev/Gemini-Next-Web",
+            "Share from [Gemini Next Web]: https://github.com/sej95/ChatGemini",
         },
       ]);
     // 敬告二开开发者们，为了开源大模型的发展，请不要修改上述消息，此消息用于后续数据清洗使用
