@@ -7,7 +7,7 @@
 
 [演示 Demo](https://gemini-chat.pro/) / [反馈 Issues](https://github.com/sej95/ChatGemini/issues) 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fblacksev%2FGemini-Next-Web&env=CODE&project-name=gemini-next-web&repository-name=Gemini-Next-Web)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsej95%2FChatGemini&env=CODE&project-name=ChatGemini&repository-name=ChatGemini)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sej95/ChatGemini)
 
@@ -18,7 +18,7 @@
 ## 开始使用
 
 1. 点击右侧按钮开始部署：
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fblacksev%2FGemini-Next-Web&env=CODE&project-name=gemini-next-web&repository-name=Gemini-Next-Web)，直接使用 Github 账号登录即可，记得在环境变量页填入 API Key 和[页面访问密码](#配置页面访问密码) CODE；
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsej95%2FChatGemini&env=CODE&project-name=ChatGemini&repository-name=ChatGemini)，直接使用 Github 账号登录即可，记得在环境变量页填入 API Key 和[页面访问密码](#配置页面访问密码) CODE；
 2. 部署完毕后，即可开始使用；
 3. （可选）[绑定自定义域名](https://vercel.com/docs/concepts/projects/domains/add-a-domain)：Vercel 分配的域名 DNS 在某些区域被污染了，绑定自定义域名即可直连。
 
@@ -156,11 +156,11 @@ BASE_URL=https://b.nextweb.fun/api/proxy
 > ⚠️ 注意：docker 版本在大多数时间都会落后最新的版本 1 到 2 天，所以部署后会持续出现“存在更新”的提示，属于正常现象。
 
 ```shell
-docker pull blacksev/gemini-next-web
+docker pull sej95/ChatGemini
 
 docker run -d -p 3000:3000 \
    -e CODE=页面访问密码 \
-   blacksev/gemini-next-web
+   sej95/ChatGemini
 ```
 
 你也可以指定 proxy：
@@ -170,7 +170,7 @@ docker run -d -p 3000:3000 \
    -e CODE=页面访问密码 \
    --net=host \
    -e PROXY_URL=http://127.0.0.1:7890 \
-   blacksev/gemini-next-web
+   sej95/ChatGemini
 ```
 
 如果你的本地代理需要账号密码，可以使用：
@@ -186,7 +186,7 @@ docker run -d -p 3000:3000 \
 在控制台运行下方命令：
 
 ```shell
-bash <(curl -s https://raw.githubusercontent.com/blacksev/Gemini-Next-Web/main/scripts/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/sej95/ChatGemini/main/scripts/setup.sh)
 ```
 
 ⚠️ 注意：如果你安装过程中遇到了问题，请使用 docker 部署。
