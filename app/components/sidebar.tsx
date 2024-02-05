@@ -217,8 +217,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href="https://sej95.github.io" target="_blank" rel="noopener noreferrer">
-//            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
+            <a href={REPO_URL2} target="_blank" rel="noopener noreferrer">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
