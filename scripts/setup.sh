@@ -54,8 +54,8 @@ if ! command -v node >/dev/null || ! command -v git >/dev/null || ! command -v y
 fi
 
 # Clone the repository and install dependencies
-git clone https://github.com/sej95/ChatGemini
-cd Gemini-Next-Web
+git clone https://github.com/sej95/ChatTopWeb
+cd ChatTopWeb
 yarn install
 
 # Prompt user for environment variables
