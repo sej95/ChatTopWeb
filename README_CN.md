@@ -1,26 +1,47 @@
 <div align="center">
-<img src="./docs/images/icon.svg" alt="预览"/>
 
-<h1 align="center">Gemini Next Web</h1>
+<a href='#企业版'>
+  <img src="./docs/images/ent.svg" alt="icon"/>
+</a>
 
-一键免费部署你的私人 Gemini 网页应用。
+<h1 align="center">NextChat</h1>
 
-[演示 Demo](https://gemini-chat.pro/) / [反馈 Issues](https://github.com/sej95/ChatGemini/issues) 
+一键免费部署你的私人 ChatGPT 网页应用，支持 GPT3, GPT4 & Gemini Pro 模型。
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsej95%2FChatGemini&env=CODE&project-name=ChatGemini&repository-name=ChatGemini)
+[NextChatAI](https://nextchat.dev/chat?utm_source=readme) / [企业版](#%E4%BC%81%E4%B8%9A%E7%89%88) / [演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/sej95/ChatTopWeb/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sej95/ChatGemini)
-
-![主界面](./docs/images/cover.png)
+[<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatTopWeb&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA)  [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/sej95/ChatTopWeb)
 
 </div>
 
+## 企业版
+
+满足您公司私有化部署和定制需求
+- **品牌定制**：企业量身定制 VI/UI，与企业品牌形象无缝契合
+- **资源集成**：由企业管理人员统一配置和管理数十种 AI 资源，团队成员开箱即用
+- **权限管理**：成员权限、资源权限、知识库权限层级分明，企业级 Admin Panel 统一控制
+- **知识接入**：企业内部知识库与 AI 能力相结合，比通用 AI 更贴近企业自身业务需求
+- **安全审计**：自动拦截敏感提问，支持追溯全部历史对话记录，让 AI 也能遵循企业信息安全规范
+- **私有部署**：企业级私有部署，支持各类主流私有云部署，确保数据安全和隐私保护
+- **持续更新**：提供多模态、智能体等前沿能力持续更新升级服务，常用常新、持续先进
+
+企业版咨询: **business@nextchat.dev**
+
+<img width="300" src="https://github.com/user-attachments/assets/3daeb7b6-ab63-4542-9141-2e4a12c80601">
+
 ## 开始使用
 
-1. 点击右侧按钮开始部署：
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsej95%2FChatGemini&env=CODE&project-name=ChatGemini&repository-name=ChatGemini)，直接使用 Github 账号登录即可，记得在环境变量页填入 API Key 和[页面访问密码](#配置页面访问密码) CODE；
-2. 部署完毕后，即可开始使用；
-3. （可选）[绑定自定义域名](https://vercel.com/docs/concepts/projects/domains/add-a-domain)：Vercel 分配的域名 DNS 在某些区域被污染了，绑定自定义域名即可直连。
+1. 准备好你的 [OpenAI API Key](https://platform.openai.com/account/api-keys);
+2. 点击右侧按钮开始部署：
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatTopWeb&env=OPENAI_API_KEY&env=CODE&env=GOOGLE_API_KEY&project-name=chatgpt-next-web&repository-name=ChatTopWeb)，直接使用 Github 账号登录即可，记得在环境变量页填入 API Key 和[页面访问密码](#配置页面访问密码) CODE；
+3. 部署完毕后，即可开始使用；
+4. （可选）[绑定自定义域名](https://vercel.com/docs/concepts/projects/domains/add-a-domain)：Vercel 分配的域名 DNS 在某些区域被污染了，绑定自定义域名即可直连。
+
+<div align="center">
+   
+![主界面](./docs/images/cover.png)
+
+</div>
 
 ## 保持更新
 
@@ -33,7 +54,7 @@
 
 ### 打开自动更新
 
-> 如果你遇到了 Upstream Sync 执行错误，请手动 Sync Fork 一次！
+> 如果你遇到了 Upstream Sync 执行错误，请[手动 Sync Fork 一次](./README_CN.md#手动更新代码)！
 
 当你 fork 项目之后，由于 Github 的限制，需要手动去你 fork 后的项目的 Actions 页面启用 Workflows，并启用 Upstream Sync Action，启用之后即可开启每小时定时自动更新：
 
@@ -51,7 +72,7 @@
 
 > 配置密码后，用户需要在设置页手动填写访问码才可以正常聊天，否则会通过消息提示未授权状态。
 
-> **警告**：请务必将密码的位数设置得足够长，最好 7 位以上，否则[会被爆破](https://github.com/sej95/ChatGemini/issues/518)。
+> **警告**：请务必将密码的位数设置得足够长，最好 7 位以上，否则[会被爆破](https://github.com/sej95/ChatTopWeb/issues/518)。
 
 本项目提供有限的权限控制功能，请在 Vercel 项目控制面板的环境变量页增加名为 `CODE` 的环境变量，值为用英文逗号分隔的自定义密码：
 
@@ -77,7 +98,7 @@ OpanAI 密钥，你在 openai 账户页面申请的 api key，使用英文逗号
 
 ### `BASE_URL` （可选）
 
-> Default: `https://api.gemini-chat.pro`
+> Default: `https://api.openai.com`
 
 > Examples: `http://your-openai-proxy.com`
 
@@ -91,7 +112,7 @@ OpenAI 接口代理 URL，如果你手动配置了 openai 接口代理，请填�
 
 ### `AZURE_URL` （可选）
 
-> 形如：https://{azure-resource-url}/openai/deployments/{deploy-name}
+> 形如：https://{azure-resource-url}/openai
 
 Azure 部署地址。
 
@@ -102,6 +123,75 @@ Azure 密钥。
 ### `AZURE_API_VERSION` （可选）
 
 Azure Api 版本，你可以在这里找到：[Azure 文档](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)。
+
+### `GOOGLE_API_KEY` (可选)
+
+Google Gemini Pro 密钥.
+
+### `GOOGLE_URL` (可选)
+
+Google Gemini Pro Api Url.
+
+### `ANTHROPIC_API_KEY` (可选)
+
+anthropic claude Api Key.
+
+### `ANTHROPIC_API_VERSION` (可选)
+
+anthropic claude Api version.
+
+### `ANTHROPIC_URL` (可选)
+
+anthropic claude Api Url.
+
+### `BAIDU_API_KEY` (可选)
+
+Baidu Api Key.
+
+### `BAIDU_SECRET_KEY` (可选)
+
+Baidu Secret Key.
+
+### `BAIDU_URL` (可选)
+
+Baidu Api Url.
+
+### `BYTEDANCE_API_KEY` (可选)
+
+ByteDance Api Key.
+
+### `BYTEDANCE_URL` (可选)
+
+ByteDance Api Url.
+
+### `ALIBABA_API_KEY` (可选)
+
+阿里云（千问）Api Key.
+
+### `ALIBABA_URL` (可选)
+
+阿里云（千问）Api Url.
+
+### `IFLYTEK_URL` (可选)
+
+讯飞星火Api Url.
+
+### `IFLYTEK_API_KEY` (可选)
+
+讯飞星火Api Key.
+
+### `IFLYTEK_API_SECRET` (可选)
+
+讯飞星火Api Secret.
+
+### `CHATGLM_API_KEY` (可选)
+
+ChatGLM Api Key.
+
+### `CHATGLM_URL` (可选)
+
+ChatGLM Api Url.
+
 
 ### `HIDE_USER_API_KEY` （可选）
 
@@ -119,6 +209,13 @@ Azure Api 版本，你可以在这里找到：[Azure 文档](https://learn.micro
 
 如果你想禁用从链接解析预制设置，将此环境变量设置为 1 即可。
 
+### `WHITE_WEBDAV_ENDPOINTS` (可选)
+
+如果你想增加允许访问的webdav服务地址，可以使用该选项，格式要求：
+- 每一个地址必须是一个完整的 endpoint
+> `https://xxxx/xxx`
+- 多个地址以`,`相连
+
 ### `CUSTOM_MODELS` （可选）
 
 > 示例：`+qwen-7b-chat,+glm-6b,-gpt-3.5-turbo,gpt-4-1106-preview=gpt-4-turbo` 表示增加 `qwen-7b-chat` 和 `glm-6b` 到模型列表，而从列表中删除 `gpt-3.5-turbo`，并将 `gpt-4-1106-preview` 模型名字展示为 `gpt-4-turbo`。
@@ -126,11 +223,36 @@ Azure Api 版本，你可以在这里找到：[Azure 文档](https://learn.micro
 
 用来控制模型列表，使用 `+` 增加一个模型，使用 `-` 来隐藏一个模型，使用 `模型名=展示名` 来自定义模型的展示名，用英文逗号隔开。
 
+在Azure的模式下，支持使用`modelName@Azure=deploymentName`的方式配置模型名称和部署名称(deploy-name)
+> 示例：`+gpt-3.5-turbo@Azure=gpt35`这个配置会在模型列表显示一个`gpt35(Azure)`的选项。
+> 如果你只能使用Azure模式，那么设置 `-all,+gpt-3.5-turbo@Azure=gpt35` 则可以让对话的默认使用 `gpt35(Azure)`
+
+在ByteDance的模式下，支持使用`modelName@bytedance=deploymentName`的方式配置模型名称和部署名称(deploy-name)
+> 示例: `+Doubao-lite-4k@bytedance=ep-xxxxx-xxx`这个配置会在模型列表显示一个`Doubao-lite-4k(ByteDance)`的选项
+
+
+### `DEFAULT_MODEL` （可选）
+
+更改默认模型
+
+### `DEFAULT_INPUT_TEMPLATE` （可选）
+
+自定义默认的 template，用于初始化『设置』中的『用户输入预处理』配置项
+
+### `STABILITY_API_KEY` (optional)
+
+Stability API密钥
+
+### `STABILITY_URL` (optional)
+
+自定义的Stability API请求地址
+
+
 ## 开发
 
 点击下方按钮，开始二次开发：
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sej95/ChatGemini)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sej95/ChatTopWeb)
 
 在开始写代码之前，需要在项目根目录新建一个 `.env.local` 文件，里面填入环境变量：
 
@@ -143,11 +265,14 @@ BASE_URL=https://b.nextweb.fun/api/proxy
 
 ### 本地开发
 
-1. 安装 nodejs 18 和 yarn，具体细节请询问 Gemini；
+1. 安装 nodejs 18 和 yarn，具体细节请询问 ChatGPT；
 2. 执行 `yarn install && yarn dev` 即可。⚠️ 注意：此命令仅用于本地开发，不要用于部署！
-3. 如果你想本地部署，请使用 `yarn install && yarn build && yarn start` 命令，你可以配合 pm2 来守护进程，防止被杀死，详情询问 Gemini。
+3. 如果你想本地部署，请使用 `yarn install && yarn build && yarn start` 命令，你可以配合 pm2 来守护进程，防止被杀死，详情询问 ChatGPT。
 
 ## 部署
+
+### 宝塔面板部署
+> [简体中文 > 如何通过宝塔一键部署](./docs/bt-cn.md)
 
 ### 容器部署 （推荐）
 
@@ -156,21 +281,23 @@ BASE_URL=https://b.nextweb.fun/api/proxy
 > ⚠️ 注意：docker 版本在大多数时间都会落后最新的版本 1 到 2 天，所以部署后会持续出现“存在更新”的提示，属于正常现象。
 
 ```shell
-docker pull sej95/ChatGemini
+docker pull yidadaa/chatgpt-next-web
 
 docker run -d -p 3000:3000 \
+   -e OPENAI_API_KEY=sk-xxxx \
    -e CODE=页面访问密码 \
-   sej95/ChatGemini
+   yidadaa/chatgpt-next-web
 ```
 
 你也可以指定 proxy：
 
 ```shell
 docker run -d -p 3000:3000 \
+   -e OPENAI_API_KEY=sk-xxxx \
    -e CODE=页面访问密码 \
    --net=host \
    -e PROXY_URL=http://127.0.0.1:7890 \
-   sej95/ChatGemini
+   yidadaa/chatgpt-next-web
 ```
 
 如果你的本地代理需要账号密码，可以使用：
@@ -186,7 +313,7 @@ docker run -d -p 3000:3000 \
 在控制台运行下方命令：
 
 ```shell
-bash <(curl -s https://raw.githubusercontent.com/sej95/ChatGemini/main/scripts/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/sej95/ChatTopWeb/main/scripts/setup.sh)
 ```
 
 ⚠️ 注意：如果你安装过程中遇到了问题，请使用 docker 部署。
@@ -199,9 +326,10 @@ bash <(curl -s https://raw.githubusercontent.com/sej95/ChatGemini/main/scripts/s
 
 ### 贡献者
 
-[见项目贡献者列表](https://github.com/sej95/ChatGemini/graphs/contributors)
+[见项目贡献者列表](https://github.com/sej95/ChatTopWeb/graphs/contributors)
 
 ### 相关项目
+
 - [one-api](https://github.com/songquanpeng/one-api): 一站式大模型额度管理平台，支持市面上所有主流大语言模型
 
 ## 开源协议
