@@ -4,13 +4,13 @@
   <img src="./docs/images/ent.svg" alt="icon"/>
 </a>
 
-<h1 align="center">NextChat (ChatGPT Next Web)</h1>
+<h1 align="center">ChatTop (ChatGPT Top Web)</h1>
 
 English / [简体中文](./README_CN.md)
 
-One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 & Gemini Pro support.
+One-Click to get a well-designed cross-platform ChatGPT web UI, with Grok, GPT4 & Gemini Pro support.
 
-一键免费部署你的跨平台私人 ChatGPT 应用, 支持 GPT3, GPT4 & Gemini Pro 模型。
+一键免费部署你的跨平台私人 ChatGPT 应用, 支持 Grok, GPT4 & Gemini Pro 模型。
 
 [![Saas][Saas-image]][saas-url]
 [![Web][Web-image]][web-url]
@@ -18,20 +18,20 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 [![MacOS][MacOS-image]][download-url]
 [![Linux][Linux-image]][download-url]
 
-[NextChatAI](https://nextchat.dev/chat?utm_source=readme) / [Web App](https://app.nextchat.dev) / [Desktop App](https://github.com/sej95/ChatTopWeb/releases) / [Discord](https://discord.gg/YCkeafCafC) / [Enterprise Edition](#enterprise-edition) / [Twitter](https://twitter.com/NextChatDev)
+[NextChatAI](https://nextchat.dev/chat?utm_source=readme) / [Web App](https://chat-top-web.vercel.app/) / [Desktop App](https://github.com/sej95/ChatTopWeb/releases) / [Discord](https://discord.gg/YCkeafCafC) / [Enterprise Edition](#enterprise-edition) / [Twitter](https://twitter.com/NextChatDev)
 
-[NextChatAI](https://nextchat.dev/chat) / [网页版](https://app.nextchat.dev) / [客户端](https://github.com/sej95/ChatTopWeb/releases) / [企业版](#%E4%BC%81%E4%B8%9A%E7%89%88) / [反馈](https://github.com/sej95/ChatTopWeb/issues)
+[NextChatAI](https://nextchat.dev/chat) / [网页版](https://chat-top-web.vercel.app/) / [客户端](https://github.com/sej95/ChatTopWeb/releases) / [反馈](https://github.com/sej95/ChatTopWeb/issues)
 
 [saas-url]: https://nextchat.dev/chat?utm_source=readme
 [saas-image]: https://img.shields.io/badge/NextChat-Saas-green?logo=microsoftedge
-[web-url]: https://app.nextchat.dev/
+[web-url]: https://chat-top-web.vercel.app/
 [download-url]: https://github.com/sej95/ChatTopWeb/releases
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 [Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
 [Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
 
-[<img src="https://vercel.com/button" alt="Deploy on Vercel" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatTopWeb&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA)  [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/sej95/ChatTopWeb) [<img src="https://img.shields.io/badge/BT_Deploy-Install-20a53a" alt="BT Deply Install" height="30">](https://www.bt.cn/new/download.html) [<img src="https://svgshare.com/i/1AVg.svg" alt="Deploy to Alibaba Cloud" height="30">](https://computenest.aliyun.com/market/service-f1c9b75e59814dc49d52)
+[<img src="https://vercel.com/button" alt="Deploy on Vercel" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsej95%2FChatTopWeb&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA)  [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/sej95/ChatTopWeb) [<img src="https://img.shields.io/badge/BT_Deploy-Install-20a53a" alt="BT Deply Install" height="30">](https://www.bt.cn/new/download.html) [<img src="https://svgshare.com/i/1AVg.svg" alt="Deploy to Alibaba Cloud" height="30">](https://computenest.aliyun.com/market/service-f1c9b75e59814dc49d52)
 
 [<img src="https://github.com/user-attachments/assets/903482d4-3e87-4134-9af1-f2588fa90659" height="60" width="288" >](https://monica.im/?utm=nxcrp)
 
@@ -60,10 +60,6 @@ For enterprise inquiries, please contact: **business@nextchat.dev**
 - **安全审计**：自动拦截敏感提问，支持追溯全部历史对话记录，让 AI 也能遵循企业信息安全规范
 - **私有部署**：企业级私有部署，支持各类主流私有云部署，确保数据安全和隐私保护
 - **持续更新**：提供多模态、智能体等前沿能力持续更新升级服务，常用常新、持续先进
-
-企业版咨询: **business@nextchat.dev**
-
-<img width="300" src="https://github.com/user-attachments/assets/3d4305ac-6e95-489e-884b-51d51db5f692">
 
 ## Features
 
@@ -102,7 +98,7 @@ For enterprise inquiries, please contact: **business@nextchat.dev**
 ## What's New
 - 🚀 v2.15.8 Now supports Realtime Chat [#5672](https://github.com/sej95/ChatTopWeb/issues/5672)
 - 🚀 v2.15.4 The Application supports using Tauri fetch LLM API, MORE SECURITY! [#5379](https://github.com/sej95/ChatTopWeb/issues/5379)
-- 🚀 v2.15.0 Now supports Plugins! Read this: [NextChat-Awesome-Plugins](https://github.com/ChatGPTNextWeb/NextChat-Awesome-Plugins)
+- 🚀 v2.15.0 Now supports Plugins! Read this: [NextChat-Awesome-Plugins](https://github.com/sej95/NextChat-Awesome-Plugins)
 - 🚀 v2.14.0 Now supports  Artifacts & SD 
 - 🚀 v2.10.1 support Google Gemini Pro model.
 - 🚀 v2.9.11 you can use azure endpoint now.
@@ -141,7 +137,7 @@ For enterprise inquiries, please contact: **business@nextchat.dev**
 ## 最新动态
 - 🚀 v2.15.8 现在支持Realtime Chat [#5672](https://github.com/sej95/ChatTopWeb/issues/5672)
 - 🚀 v2.15.4 客户端支持Tauri本地直接调用大模型API，更安全！[#5379](https://github.com/sej95/ChatTopWeb/issues/5379)
-- 🚀 v2.15.0 现在支持插件功能了！了解更多：[NextChat-Awesome-Plugins](https://github.com/ChatGPTNextWeb/NextChat-Awesome-Plugins)
+- 🚀 v2.15.0 现在支持插件功能了！了解更多：[NextChat-Awesome-Plugins](https://github.com/sej95/NextChat-Awesome-Plugins)
 - 🚀 v2.14.0 现在支持 Artifacts & SD 了。
 - 🚀 v2.10.1 现在支持 Gemini Pro 模型。
 - 🚀 v2.9.11 现在可以使用自定义 Azure 服务了。
