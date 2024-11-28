@@ -6,6 +6,8 @@
 
 <h1 align="center">ChatTop</h1>
 
+[English](./README.md) / 简体中文
+
 一键免费部署你的私人 ChatGPT 网页应用，支持 Grok, GPT4 & Gemini Pro 模型。
 
 [NextChatAI](https://nextchat.dev/chat?utm_source=readme) / [企业版](#%E4%BC%81%E4%B8%9A%E7%89%88) / [演示 Demo](https://chat-top-web.vercel.app/) / [反馈 Issues](https://github.com/sej95/ChatTopWeb/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N)
