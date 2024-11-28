@@ -4,13 +4,13 @@
   <img src="./docs/images/ent.svg" alt="icon"/>
 </a>
 
-<h1 align="center">NextChat</h1>
+<h1 align="center">ChatTop</h1>
 
-一键免费部署你的私人 ChatGPT 网页应用，支持 GPT3, GPT4 & Gemini Pro 模型。
+一键免费部署你的私人 ChatGPT 网页应用，支持 Grok, GPT4 & Gemini Pro 模型。
 
-[NextChatAI](https://nextchat.dev/chat?utm_source=readme) / [企业版](#%E4%BC%81%E4%B8%9A%E7%89%88) / [演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/sej95/ChatTopWeb/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N)
+[NextChatAI](https://nextchat.dev/chat?utm_source=readme) / [企业版](#%E4%BC%81%E4%B8%9A%E7%89%88) / [演示 Demo](https://chat-top-web.vercel.app/) / [反馈 Issues](https://github.com/sej95/ChatTopWeb/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N)
 
-[<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatTopWeb&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA)  [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/sej95/ChatTopWeb)
+[<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsej95%2FChatTopWeb&env=OPENAI_API_KEY&env=CODE&project-name=chattop&repository-name=ChatTop) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA)  [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/sej95/ChatTopWeb)
 
 </div>
 
@@ -24,10 +24,6 @@
 - **安全审计**：自动拦截敏感提问，支持追溯全部历史对话记录，让 AI 也能遵循企业信息安全规范
 - **私有部署**：企业级私有部署，支持各类主流私有云部署，确保数据安全和隐私保护
 - **持续更新**：提供多模态、智能体等前沿能力持续更新升级服务，常用常新、持续先进
-
-企业版咨询: **business@nextchat.dev**
-
-<img width="300" src="https://github.com/user-attachments/assets/3daeb7b6-ab63-4542-9141-2e4a12c80601">
 
 ## 开始使用
 
