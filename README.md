@@ -1,6 +1,6 @@
 <div align="center">
 <font size=200>**X**</font>
-   *Y*_ddddYYYYYY_
+   '#765678'*Y*_ddddYYYYYY_
 <h1 align="center"><font face="KAI" color=Blue size=20>X</font> ChatTop (ChatGPT Top Web)</h1>
 
 English / [简体中文](./README_CN.md)
