@@ -1,7 +1,10 @@
 <div align="center">
-<font size=200>**X**</font>
-   `#765678`*Y*_ddddYYYYYY_
-<h1 align="center"><font face="KAI" color=Blue size=20>X</font> ChatTop (ChatGPT Top Web)</h1>
+
+<a href='#企业版'>
+  <img src="./docs/images/ent.svg" alt="icon"/>
+</a>
+
+<h1 align="center">ChatTop (ChatGPT Top Web)</h1>
 
 English / [简体中文](./README_CN.md)
 
@@ -29,6 +32,8 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with Grok, GPT4 
 [Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
 
 [<img src="https://vercel.com/button" alt="Deploy on Vercel" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsej95%2FChatTopWeb&env=OPENAI_API_KEY&env=CODE&project-name=chattop&repository-name=ChatTop) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA)  [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/sej95/ChatTopWeb) [<img src="https://img.shields.io/badge/BT_Deploy-Install-20a53a" alt="BT Deply Install" height="30">](https://www.bt.cn/new/download.html) [<img src="https://svgshare.com/i/1AVg.svg" alt="Deploy to Alibaba Cloud" height="30">](https://computenest.aliyun.com/market/service-f1c9b75e59814dc49d52)
+
+[<img src="https://github.com/user-attachments/assets/903482d4-3e87-4134-9af1-f2588fa90659" height="60" width="288" >](https://monica.im/?utm=nxcrp)
 
 </div>
 
