@@ -1,5 +1,5 @@
 <div align="center">
-<font face="KAI" color=Blue size=20>X</font>
+<font face="KAI" color=Blue size=200>X</font>
 <h1 align="center"><font face="KAI" color=Blue size=20>X</font> ChatTop (ChatGPT Top Web)</h1>
 
 English / [简体中文](./README_CN.md)
