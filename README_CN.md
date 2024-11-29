@@ -1,16 +1,12 @@
 <div align="center">
 
-<a href='#企业版'>
-  <img src="./docs/images/ent.svg" alt="icon"/>
-</a>
-
 <h1 align="center">ChatTop</h1>
 
 [English](./README.md) / 简体中文
 
 一键免费部署你的私人 ChatGPT 网页应用，支持 Grok, GPT4 & Gemini Pro 模型。
 
-[NextChatAI](https://nextchat.dev/chat?utm_source=readme) / [企业版](#%E4%BC%81%E4%B8%9A%E7%89%88) / [演示 Demo](https://chat-top-web.vercel.app/) / [反馈 Issues](https://github.com/sej95/ChatTopWeb/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N)
+[NextChatAI](https://nextchat.dev/chat?utm_source=readme) / [演示 Demo](https://chat-top-web.vercel.app/) / [反馈 Issues](https://github.com/sej95/ChatTopWeb/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N)
 
 [<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsej95%2FChatTopWeb&env=OPENAI_API_KEY&env=CODE&project-name=chattop&repository-name=ChatTop) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA)  [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/sej95/ChatTopWeb)
 
@@ -20,7 +16,7 @@
 
 1. 准备好你的 [OpenAI API Key](https://platform.openai.com/account/api-keys);
 2. 点击右侧按钮开始部署：
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatTopWeb&env=OPENAI_API_KEY&env=CODE&env=GOOGLE_API_KEY&project-name=chatgpt-next-web&repository-name=ChatTopWeb)，直接使用 Github 账号登录即可，记得在环境变量页填入 API Key 和[页面访问密码](#配置页面访问密码) CODE；
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2sej95%2FChatTopWeb&env=OPENAI_API_KEY&env=CODE&env=GOOGLE_API_KEY&project-name=chat-top-web&repository-name=ChatTopWeb)，直接使用 Github 账号登录即可，记得在环境变量页填入 API Key 和[页面访问密码](#配置页面访问密码) CODE；
 3. 部署完毕后，即可开始使用；
 4. （可选）[绑定自定义域名](https://vercel.com/docs/concepts/projects/domains/add-a-domain)：Vercel 分配的域名 DNS 在某些区域被污染了，绑定自定义域名即可直连。
 
