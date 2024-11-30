@@ -1,9 +1,5 @@
 <div align="center">
 
-<a href='#企业版'>
-  <img src="./docs/images/ent.svg" alt="icon"/>
-</a>
-
 <h1 align="center">ChatTop (ChatGPT Top Web)</h1>
 
 English / [简体中文](./README_CN.md)
