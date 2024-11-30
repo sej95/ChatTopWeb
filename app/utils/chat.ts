@@ -182,7 +182,7 @@ export function stream(
       responseText += remainText;
       console.log("[Response Animation] finished");
       if (responseText?.length === 0) {
-        options.onError?.(new Error("empty response from server"));
+        options.onError?.(new Error("empty response from server !"));
       }
       return;
     }
