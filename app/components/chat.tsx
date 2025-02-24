@@ -27,7 +27,7 @@ import ResetIcon from "../icons/reload.svg";
 import BreakIcon from "../icons/break.svg";
 import SettingsIcon from "../icons/chat-settings.svg";
 import DeleteIcon from "../icons/clear.svg";
-import PinIcon from "../icons/voice.svg";
+import PinIcon from "../icons/pin.svg";
 import EditIcon from "../icons/rename.svg";
 import ConfirmIcon from "../icons/confirm.svg";
 import CloseIcon from "../icons/close.svg";
